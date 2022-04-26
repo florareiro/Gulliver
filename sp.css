@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@900&display=swap');
+
+
+p,input, select, label {
+  
+  font-family: 'Montserrat' , sans-serif ;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+caption,
+.menu-a {
+  font-family: 'Roboto', sans-serif;
+  color: #ff6347;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  list-style: none;
+  
+}
+a{
+  font-family: 'Roboto', sans-serif;
+  
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  list-style: none;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  
+  color: white;
+  width: 100%;
+  height: 80px;
+  display:flex;
+  box-sizing: border-box;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.881);
+  
+  
+}
+header .menu-a,h1 {
+  color: white;
+}
+
+.logo{
+  font-size: 40px;
+  color: #ffffff;
+  padding: 10px;
+  
+}
+.caixa-header{
+text-align: center;
+height: auto;
+
+
+}
+
+.caixa-1{
+  width: 45%;
+}
+
+.caixa-1 h1 {
+  padding-top: 20px;
+  font-size: 25px;
+}
+.caixa-2{
+  width:15%;
+}
+.caixa-3{
+  width:45%;
+ 
+}
+.caixa-3 ul{
+  display: inline-flex;
+  padding-top: 20px;
+}
+.caixa-3 li{
+  margin: 10px;
+  font-size: 14px;
+}
+.caixa-3 a:hover {
+  font-size: 15px;
+  color:#fc492a;
+}
+.sobre{
+  background-image: url(./imagens/sp-img.jpg ) ;
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  height: 600px;
+  
+  margin: 0px auto;
+  padding: 20px;
+}
+.caixa-texto{
+  background-color:rgb(255, 250, 250);
+  width: 700px;
+  margin: 150px auto 0;
+  float: right;
+  padding: 20px;
+  text-align: right;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  word-spacing: 3px;
+  border: 1px solid #fc492a;
+  font-weight: bold;
+  
+  
+  
+}
+.caixa-texto:hover{
+  border: 3px solid #fc492a;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.caixa {
+  width:100%;
+  margin: 0px auto;
+}
+.como-chegar h2 {
+ 
+
+  font-size: 30px;
+  font-weight: bold;
+}
+.como-chegar{
+  width: 100%;
+  margin-top: 20px;
+  padding: 40px;
+  text-align: center;
+}
+.transporte, .hotel {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  margin: 20px;
+  text-align: center;
+  padding: 0 5px;
+  border: 2px solid tomato;
+  line-height: 1.5;
+  font-weight: bold;
+  
+}
+.transporte:hover{
+  width: 220px;
+  cursor: pointer;
+  border: 3px solid #fc492a;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.transporte-icon{
+  font-size: 70px;
+  padding: 40px;
+  color: #fc492a;
+
+}
+.comprar-passagem h2{
+  font-size: 30px;
+}
+.comprar-passagem h2{
+  margin: 20px;
+  text-align: center;
+  
+}
+
+form {
+width: 800px; 
+height: auto; 
+padding: 20px;
+margin: 30px auto;
+
+}
+
+form p {
+  padding: 10px;
+}
+fieldset{
+  padding: 15px;
+  border:2px solid #fc492a;
+}
+ label{
+  padding: 20px 10px;
+  font-size: 18px;
+  font-weight: 900;
+  
+  
+}
+input, select{
+  width: 100%;
+  padding: 10px;
+  font-size: 17px;
+}
+
+.botao-form {
+  width: 300px;
+  height: 50px;
+  margin: 10px 0;
+  float: right;
+  background-color: #fc492a;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-color: antiquewhite;
+}
+.botao-form:hover {
+ 
+  color:tomato;
+  background-color: white;
+  cursor: pointer;
+  border-color: #fc492a;
+  
+}
+.hospedagem {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+.hospedagem h2 {
+  font-size: 30px;
+}
+
+.hotel{
+  width: 250px;
+  margin: 10px;
+  box-sizing: border-box;
+  border: 1px solid #fc492a
+  
+}
+
+.hotel:hover{
+  width: 260px;
+  border:3px solid #fc492a;
+  font-size: large;
+}
+.imagem-hotel{
+  margin: 10px auto;
+  width: 230px;
+  height: 300px;
+  /* border: 1px solid #404040; */
+}
+ .hotel-1 {
+   background-image: url(./imagens/ibis-styles.jpg);
+   background-size: cover;
+ }
+ .hotel-2{
+   background-image: url(./imagens/confort-ibirapuera.jpg);
+   background-size: cover;
+ }
+ .hotel-3{
+   background-image: url(./imagens/Blue-Tree-Premium-Morumbi.jpg);
+   background-size: cover;
+ }
+ .hotel-4 {
+   background-image: url(./imagens/mercure-pamplona.jpg);
+   background-size: cover;
+ }
+ .hotel-avaliacao{
+   margin: 10px;
+ }
+
+ .botao-hotel  {
+   margin: 10px;
+   width: 200px;
+   height: 30px;
+   font-size: 15px;
+   background-color: #fc492a;
+   border-color: white;
+   
+ }
+.botao-hotel a{
+  color:white;
+}
+.botao-hotel a:hover{
+  color: #fc492a;
+}
+.botao-hotel:hover{
+  background-color: white;
+  border-color: #fc492a;
+}
+
+ .estrela {
+   color: #fefc55;
+   
+ }
+ .estrela-cinza{
+   color: rgb(221, 221, 221)
+ }

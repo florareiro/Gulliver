@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>São Paulo | Traveller</title>
+    <link rel="stylesheet" href="./sp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="caixa-header caixa-1">
+        <h1>Conheça São Paulo</h1>
+      </div>
+      <div class="caixa-header caixa-2">
+        <i class="fa-solid fa-person-walking-luggage logo"></i>
+      </div>
+      <div class="caixa-header caixa-3">
+        <nav>
+          <ul>
+            <li><a class="menu-a" href="#sobre">Sobre</a></li>
+            <li><a class="menu-a" href="#como-chegar"> Como Chegar</a></li>
+            <li><a class="menu-a" href="#passagens">Passagens</a></li>
+            <li><a class="menu-a" href="#hospedagens">Hospedagens</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- FIM HEADER -->
+
+    <div class="sobre" id="sobre">
+      <div class="caixa-texto">
+        <h2>A maior cidade da América Latina</h2>
+        <p>
+          Fundada em 1554 por padres jesuítas, a cidade é mundialmente conhecida
+          e exerce significativa influência nacional e internacional, seja do
+          ponto de vista cultural, econômico ou político. Centro financeiro do
+          Brasil, está entre as cidades mais populosas do mundo, com diversas
+          instituições culturais e uma rica tradição arquitetônica.
+        </p>
+      </div>
+      <!-- FIM SOBRE -->
+    </div>
+    <div class="como-chegar" id="como-chegar">
+      <h2>Como Chegar</h2>
+      <div class="caixa">
+        <div class="transporte">
+          <i class="fa-solid fa-plane-departure transporte-icon"></i>
+          <h3>Avião</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+            cupiditate delectus placeat fuga sint quos qui eius rerum ullam
+            consectetur!
+          </p>
+        </div>
+        <div class="transporte">
+          <i class="fa-solid fa-car transporte-icon"></i>
+          <h3>Carro</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+            cupiditate delectus placeat fuga sint quos qui eius rerum ullam
+            consectetur!
+          </p>
+        </div>
+        <div class="transporte">
+          <i class="fa-solid fa-bus transporte-icon"></i>
+          <h3>Onibus</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta,
+            cupiditate delectus placeat fuga sint quos qui eius rerum ullam
+            consectetur!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- FIM COMO CHEGAR -->
+    <div class="comprar-passagem" id="passagens">
+      <h2>Encontre sua Passagem</h2>
+      <form action="" method="post" class="passagem-form">
+        <fieldset>
+          <legend><h3>Preencha os Dados</h3></legend>
+
+          <p>
+            <label for="nome">Digite seu nome</label>
+            <input
+              type="text"
+              id="nome"
+              placeholder="Ex: Maria da Silva"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Digite seu Email: </label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Ex: exemplo@exemplo.com"
+              required
+            />
+          </p>
+          <p>
+            <label for="dataHora">Selecione a Data e Horário:</label>
+            <input type="datetime-local" id="dataHora" required />
+          </p>
+          <p>
+            <label for="escolher-transporte"> Transporte:</label>
+            <select id="escolher-transporte" required>
+              <option value="0" disabled selected>
+                Selecione o tipo de Transporte
+              </option>
+              <option value="1">Avião</option>
+              <option value="2">Carro</option>
+              <option value="3">Ônibus</option>
+            </select>
+          </p>
+
+          <button type="submit" class="botao-form">Procurar Passagens</button>
+        </fieldset>
+      </form>
+    </div>
+    <!-- FIM COMPRAR PASSAGEM -->
+
+    <div class="hospedagem" id="hospedagens">
+      <h2>Onde se Hospedar</h2>
+      <div class="caixa">
+        <div class="hotel">
+          <div class="imagem-hotel hotel-1"></div>
+          <h3>IBIS Styles <br />Anhembi</h3>
+
+          <div class="hotel-avaliacao">
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela-cinza"></i>
+          </div>
+          <button class="botao-hotel">
+            <a
+              href="https://all.accor.com/hotel/9596/index.pt-br.shtml?utm_term=mar&gclid=CjwKCAjwjZmTBhB4EiwAynRmD0WX2Nsn8uXtJ8qKv6LvwOKzp5hROJGqkuMEU5jRI_PQ3jUpAIAQUhoCAFEQAvD_BwE&utm_campaign=ppc-ibs-mar-goo-br-pt-sp-exa-sear-br&utm_medium=cpc&utm_content=br-pt-&utm_source=google"
+              target="_blank"
+            >
+              Site do Hotel</a
+            >
+          </button>
+        </div>
+        <div class="hotel">
+          <div class="imagem-hotel hotel-2"></div>
+          <h3>
+            Confort <br />
+            Ibirapuera
+          </h3>
+
+          <div class="hotel-avaliacao">
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela-cinza"></i>
+          </div>
+          <button class="botao-hotel">
+            <a
+              href="https://www.reserveatlantica.com.br/hotel/comfort-ibirapuera"
+              target="_blank"
+            >
+              Site do Hotel</a
+            >
+          </button>
+        </div>
+        <div class="hotel">
+          <div class="imagem-hotel hotel-3"></div>
+          <h3>Blue Tree Premium <br />Morumbi</h3>
+
+          <div class="hotel-avaliacao">
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela-cinza"></i>
+          </div>
+          <button class="botao-hotel">
+            <a
+              href="https://www.booking.com/searchresults.pt-br.html?aid=354415;label=blue-tree-premium-morumbi-eFj7DdLy0dwiO1iLF4V3sQS104324610387%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-18285380777%3Alp9100231%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YbC4OlOULAnvcrFmvh1xnqM;sid=db5159bd806232323708cb6549c104e8;city=-671824;expand_sb=1;highlighted_hotels=250150;hlrd=no_dates;keep_landing=1;redirected=1;source=hotel&gclid=CjwKCAjwjZmTBhB4EiwAynRmD_aD7KxxR71447O7LvFKSP8zfPawcZFact75B2sBYFQZUlJb9nGdyxoCWcYQAvD_BwE&room1=A,A,;"
+              target="_blank"
+            >
+              Site do Hotel</a
+            >
+          </button>
+        </div>
+        <div class="hotel">
+          <div class="imagem-hotel hotel-4"></div>
+          <h3>Mercure <br />Pamplona</h3>
+
+          <div class="hotel-avaliacao">
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela"></i>
+            <i class="fa-solid fa-star estrela-cinza"></i>
+          </div>
+          <button class="botao-hotel">
+            <a
+              href="https://www.guestreservations.com/mercure-sao-paulo-pamplona-hotel/booking?gclid=CjwKCAjwjZmTBhB4EiwAynRmD_1Yy8xqssC_9PQ8bEWOTh4WGDpdttPTx9rUbvYPBmGf0zW8GS3mhhoCRIgQAvD_BwE"
+              target="_blank"
+            >
+              Site do Hotel</a
+            >
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- FIM HOSPEDAGEM -->
+  </body>
+</html>
